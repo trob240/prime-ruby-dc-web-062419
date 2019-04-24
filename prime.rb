@@ -2,18 +2,27 @@
 
 def prime?(n)
     if n <= 1
-      false
+      puts false
 
     elsif
-      n == 2 
-        true
+      n == 2 || n == 3
+      puts  true
     
-  else
+  elsif
     
-     (2..(Math.sqrt(n))
+    
+   for i in (2..(Math.sqrt(n)).round)
+   
+    if n % i == 0
+   
+    puts  false
 
-    end
+  else
+    puts true
     
     
     
+ end
+ end
+ end
  end
