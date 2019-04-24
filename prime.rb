@@ -1,7 +1,7 @@
 require 'benchmark'
 
 n = gets.chomp
-def prime?(n)
+def prime?
          if n <= 1
          return false
        end
@@ -18,4 +18,4 @@ end
 
 puts Benchmark.measure{prime?}
 
-prime?(34)
+prime?
