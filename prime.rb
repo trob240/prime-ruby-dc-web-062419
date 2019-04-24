@@ -16,3 +16,5 @@ def prime?(n)
 end
 
 puts Benchmark.measure{t}
+
+t
