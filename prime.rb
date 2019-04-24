@@ -17,4 +17,4 @@ end
 
 puts Benchmark.measure{prime?}
 
-prime?
+prime?(n)
