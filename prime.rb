@@ -10,7 +10,7 @@ def prime?(n)
     
   else
     
-     (2..(Math.sqrt(9))
+     (2..(Math.sqrt(n))
 
     end
     
