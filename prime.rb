@@ -2,7 +2,7 @@ require 'benchmark'
 
 
 def prime?
-  n = gets.chomp
+  n = gets.to_i
          if n <= 1
          return false
        end
