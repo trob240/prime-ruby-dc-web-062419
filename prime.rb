@@ -1,7 +1,8 @@
 require 'benchmark'
 
-n = gets.chomp
-def prime?
+
+def prime?(n)
+  n = gets.chomp
          if n <= 1
          return false
        end
