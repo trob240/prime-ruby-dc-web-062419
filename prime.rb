@@ -15,6 +15,6 @@ def prime?(n)
      return true
 end
 
-puts Benchmark.measure{t}
+puts Benchmark.measure{prime?}
 
-t
+prime?
