@@ -1,4 +1,4 @@
-# Add  code here!
+require 'benchmark'
 
 def prime?(n)
          if n <= 1
@@ -14,3 +14,5 @@ def prime?(n)
       
      return true
 end
+
+puts Benchmark.measure{t}
